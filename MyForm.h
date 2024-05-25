@@ -257,7 +257,7 @@ namespace RentAndInventoryApp {
             this->Controls->Add(this->txtQuantity);
             this->Controls->Add(this->txtItemName);
             this->Name = L"MyForm";
-            this->Text = L"Rent and Inventory Management System";
+            this->Text = L"Inventory Management System";
             this->Load += gcnew System::EventHandler(this, &MyForm::MyForm_Load);
             (cli::safe_cast<System::ComponentModel::ISupportInitialize^>(this->dataGridView1))->EndInit();
             this->ResumeLayout(false);
